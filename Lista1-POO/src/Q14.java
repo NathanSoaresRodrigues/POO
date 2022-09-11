@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Q14 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int i;
+		int x;
+		int fat = 1;
+		
+		System.out.println("Digite um número: ");
+		x = sc.nextInt();
+		
+		for (i = 1; i <= x; i++) {
+			fat = fat * i;
+		}
+		
+		System.out.println(fat);
+		sc.close();
+	}
+}
